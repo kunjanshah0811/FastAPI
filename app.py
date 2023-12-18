@@ -5,7 +5,7 @@ app=FastAPI()
 #decorator
 
 def product_model(age:int,sex:str):
-    #below is a rule based demo model.
+    #below is a rule-based demo model. 
     if  age<15 or sex=='F':
         return{'survived':1}
     else :
